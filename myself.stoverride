@@ -1,6 +1,5 @@
-#SUBSCRIBED https://raw.githubusercontent.com/njpig/stash/main/myself.stoverride
-name: myself
-desc: myself
+name: MyRules
+desc: My rules from https://github.com/Loyalsoldier/clash-rules.
 
 rules:
   - RULE-SET,applications,DIRECT
