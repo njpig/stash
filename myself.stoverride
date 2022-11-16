@@ -3,4 +3,4 @@ name: myself
 desc: myself
 
 rules:
-  - DOMAIN-SUFFIX,myeconomistmy.com,Proxy
+  - DOMAIN-SUFFIX,baidu.com,Proxy
