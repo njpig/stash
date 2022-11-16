@@ -2,4 +2,5 @@
 name: myself
 desc: myself
 
-external-controller: 127.0.0.1:9092
+rules:
+- DOMAIN-SUFFIX,myeconomistmy.com,Proxy
