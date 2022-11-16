@@ -1,1 +1,5 @@
+#SUBSCRIBED https://github.com/njpig/stash/blob/main/myself.stoverride
+name: myself
+desc: myself
+
 external-controller: 127.0.0.1:9092
