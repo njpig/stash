@@ -1,6 +1,6 @@
-#SUBSCRIBED https://github.com/njpig/stash/blob/main/myself.stoverride
+#SUBSCRIBED https://raw.githubusercontent.com/njpig/stash/main/myself.stoverride
 name: myself
 desc: myself
 
 rules:
-- DOMAIN-SUFFIX,myeconomistmy.com,Proxy
+  - DOMAIN-SUFFIX,myeconomistmy.com,Proxy
