@@ -1,0 +1,5 @@
+name: MyDns
+desc: config for Dns
+
+dns:
+  enable: true
