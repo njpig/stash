@@ -2,17 +2,6 @@ name: MyRules
 desc: My rules from https://github.com/Loyalsoldier/clash-rules.
 
 rules:
-  - DOMAIN-SUFFIX,services.mozilla.com,DIRECT
-  - DOMAIN-SUFFIX,accounts.firefox.com,DIRECT
-  - DOMAIN-SUFFIX,google.com,Proxy
-  - DOMAIN-SUFFIX,google.com.hk,Proxy
-  - DOMAIN-SUFFIX,github.com,Proxy
-  - DOMAIN-SUFFIX,ftchinese.com,Proxy
-  - DOMAIN-SUFFIX,reuters.com,Proxy
-  - DOMAIN-SUFFIX,wsj.com,Proxy
-  - DOMAIN-SUFFIX,ft.com,Proxy
-  - DOMAIN-SUFFIX,cloudfront.net,Proxy
-  - DOMAIN-SUFFIX,economist.com,Proxy
   - RULE-SET,reject,REJECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
