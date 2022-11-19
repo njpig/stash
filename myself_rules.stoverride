@@ -6,6 +6,7 @@ rules:
   - DOMAIN-SUFFIX,accounts.firefox.com,DIRECT
 
   - DOMAIN-KEYWORD,glados,Proxy
+  - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
 
   - RULE-SET,reject,REJECT
   - GEOIP,LAN,DIRECT
