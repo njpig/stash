@@ -1,8 +1,8 @@
 DOMAIN-SUFFIX,services.mozilla.com,DIRECT
 DOMAIN-SUFFIX,accounts.firefox.com,DIRECT
 
-DOMAIN-KEYWORD,glados,Auto
-DOMAIN-SUFFIX,podcasts.apple.com,Auto
+DOMAIN-KEYWORD,glados,MyProxy
+DOMAIN-SUFFIX,podcasts.apple.com,MyProxy
 
 host-suffix,0-000.store,REJECT
 host-suffix,0.code.cotsta.ru,REJECT
