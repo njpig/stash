@@ -9,9 +9,6 @@ rules:
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
 
   - RULE-SET,reject,REJECT
-  - GEOIP,LAN,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,Proxy
 
 rule-providers:
   reject:
