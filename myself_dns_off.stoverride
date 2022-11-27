@@ -1,5 +1,5 @@
-name: MyDns
-desc: config for Dns
+name: MyDns off
+desc: config for Dns off
 
 dns:
   enable: false
