@@ -8,5 +8,8 @@ dns:
      - 119.29.29.29
      - 114.114.114.114
   fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
-     - https://1.1.1.1/dns-query
-     - tls://dns.google:853
+     #- https://1.1.1.1/dns-query
+     #- tls://1.0.0.1:853
+     #- tls://dns.google:853
+     - tls://dns.rubyfish.cn:853 # DNS over TLS
+     - https://1.1.1.1/dns-query # DNS over HTTPS
