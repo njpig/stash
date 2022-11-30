@@ -2,7 +2,7 @@ name: MyDns
 desc: config for Dns
 
 dns:
-  enable: false # set true to enable dns (default is false)
+  enable: true # set true to enable dns (default is false)
   listen: 127.0.0.1:53
   nameserver:
     - 119.29.29.29
