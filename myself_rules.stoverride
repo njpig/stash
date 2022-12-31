@@ -13,9 +13,7 @@ rules:
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,google,DIRECT
-  - RULE-SET,proxy,Proxy
   - RULE-SET,direct,DIRECT
-  - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
 
 rule-providers:
@@ -47,13 +45,6 @@ rule-providers:
     path: ./ruleset/google.yaml
     interval: 86400
 
-  proxy:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-    path: ./ruleset/proxy.yaml
-    interval: 86400
-
   direct:
     type: http
     behavior: domain
@@ -73,11 +64,4 @@ rule-providers:
     behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
     path: ./ruleset/cncidr.yaml
-    interval: 86400
-
-  lancidr:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-    path: ./ruleset/lancidr.yaml
     interval: 86400
