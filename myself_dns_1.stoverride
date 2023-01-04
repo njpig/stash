@@ -10,6 +10,7 @@ dns:
   nameserver:
     - 119.29.29.29
     - 8.8.8.8
+    - 208.67.222.222 
   #fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
   #  #- https://1.1.1.1/dns-query
   #  #- tls://1.0.0.1:853
