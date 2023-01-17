@@ -4,13 +4,15 @@ desc: My Stash rules for local config from https://github.com/Loyalsoldier/clash
 rules:
   - DOMAIN-SUFFIX,services.mozilla.com,DIRECT
   - DOMAIN-SUFFIX,accounts.firefox.com,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+
+  - DOMAIN-SUFFIX,tinypass.com,REJECT
 
   - DOMAIN-KEYWORD,glados,Proxy
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
   - DOMAIN-SUFFIX,ft.com,Proxy
 
-  - DOMAIN,clash.razord.top,DIRECT
-  - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT
   - RULE-SET,tld-not-cn,Proxy
