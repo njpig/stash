@@ -12,9 +12,6 @@ rules:
   - DOMAIN-KEYWORD,glados,Proxy
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
   - DOMAIN-SUFFIX,ft.com,Proxy
-  - DOMAIN-SUFFIX,ftchinese.com,Proxy
-  - DOMAIN-SUFFIX,ftmailbox.cn,Proxy
-  - DOMAIN-SUFFIX,ftacademy.cn,Proxy
   - DOMAIN-SUFFIX,cloudfront.net,Proxy
   - DOMAIN-SUFFIX,investing.com,Proxy
 
