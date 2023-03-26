@@ -14,6 +14,9 @@ rules:
   - RULE-SET,apple,DIRECT
   - RULE-SET,direct,DIRECT
   - RULE-SET,cncidr,DIRECT
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxy
 
 rule-providers:
   reject:
