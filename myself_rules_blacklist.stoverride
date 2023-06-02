@@ -24,12 +24,12 @@ rules:
   - MATCH,DIRECT
 
 rule-providers:
-#  reject:
-#    type: http
-#    behavior: domain
-#    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
-#    path: ./ruleset/reject.yaml
-#    interval: 86400
+  reject:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
 
   private:
     type: http
