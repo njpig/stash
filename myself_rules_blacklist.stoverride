@@ -7,7 +7,7 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
 
-  - DOMAIN-SUFFIX,tinypass.com,REJECT
+#  - DOMAIN-SUFFIX,tinypass.com,REJECT
 
   - DOMAIN-KEYWORD,glados,Proxy
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
@@ -16,7 +16,7 @@ rules:
   - DOMAIN-SUFFIX,investing.com,Proxy
 
   - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT
+#  - RULE-SET,reject,REJECT
   - RULE-SET,tld-not-cn,Proxy
   - RULE-SET,gfw,Proxy
   - RULE-SET,greatfire,Proxy
