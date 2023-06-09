@@ -9,9 +9,10 @@ rules:
 
   - DOMAIN-SUFFIX,tinypass.com,REJECT
 
+  - DOMAIN-SUFFIX,ft.com,Proxy
   - DOMAIN-KEYWORD,glados,Proxy
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
-  - DOMAIN-SUFFIX,ft.com,Proxy
+  - DOMAIN-SUFFIX,imf.org,Proxy
 #  - DOMAIN-SUFFIX,cloudfront.net,Proxy
   - DOMAIN-SUFFIX,investing.com,Proxy
 
