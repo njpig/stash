@@ -1,4 +1,4 @@
-name: MyRules Blacklist
+name: MyRules Blacklist with REJECT
 desc: My Stash rules for local config from https://github.com/Loyalsoldier/clash-rules.
 
 rules:
