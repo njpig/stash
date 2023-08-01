@@ -20,7 +20,7 @@ rules:
 #  - RULE-SET,reject,REJECT
 #  - RULE-SET,tld-not-cn,Proxy
   - RULE-SET,gfw,Proxy
-  - RULE-SET,greatfire,Proxy
+#  - RULE-SET,greatfire,Proxy
   - RULE-SET,telegramcidr,Proxy
   - MATCH,DIRECT
 
@@ -44,13 +44,6 @@ rule-providers:
     behavior: domain
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
     path: ./ruleset/gfw.yaml
-    interval: 86400
-
-  greatfire:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt"
-    path: ./ruleset/greatfire.yaml
     interval: 86400
 
   tld-not-cn:
