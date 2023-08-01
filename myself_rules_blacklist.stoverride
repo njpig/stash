@@ -18,7 +18,7 @@ rules:
 
   - RULE-SET,private,DIRECT
 #  - RULE-SET,reject,REJECT
-  - RULE-SET,tld-not-cn,Proxy
+#  - RULE-SET,tld-not-cn,Proxy
   - RULE-SET,gfw,Proxy
   - RULE-SET,greatfire,Proxy
   - RULE-SET,telegramcidr,Proxy
