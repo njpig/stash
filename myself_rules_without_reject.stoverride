@@ -2,10 +2,6 @@ name: MyRules without reject
 desc: My Stash rules for local config from https://github.com/Loyalsoldier/clash-rules.
 
 rules:
-  - DOMAIN-SUFFIX,services.mozilla.com,DIRECT
-  - DOMAIN-SUFFIX,accounts.firefox.com,DIRECT
-
-  - DOMAIN-KEYWORD,glados,Proxy
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
 
   - RULE-SET,private,DIRECT

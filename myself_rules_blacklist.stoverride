@@ -2,8 +2,6 @@ name: MyRules Blacklist
 desc: My Stash rules for local config from https://github.com/Loyalsoldier/clash-rules.
 
 rules:
-  - DOMAIN-SUFFIX,services.mozilla.com,DIRECT
-  - DOMAIN-SUFFIX,accounts.firefox.com,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
 
