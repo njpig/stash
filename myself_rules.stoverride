@@ -3,6 +3,8 @@ desc: My Stash rules for local config from https://github.com/Loyalsoldier/clash
 
 rules:
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
+  - DOMAIN-SUFFIX,openai.com,My-US-Hysteria2
+  - DOMAIN-SUFFIX,gemini.google.com,My-US-Hysteria2
 
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT
